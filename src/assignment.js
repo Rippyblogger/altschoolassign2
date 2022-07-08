@@ -31,7 +31,7 @@ assignment.sumOfNumbers = sumOfNumbers;
 function countEvenNumbers(arrayOfNumbers) {
   let count = arrayOfNumbers.filter((num)=>{
       return num % 2 === 0;
-    }
+    })
   return count.length
     // return arrayOfNumbers.length;
 }
